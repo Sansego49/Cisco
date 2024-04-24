@@ -1,0 +1,21 @@
+######### CISCO ##############
+
+######### ROUTER EN CLI ##############
+
+configuration interface
+enable
+conf t
+interfaces g tab ou f tab ex  0/1 ou 0/0
+ip addresse  x.x.x.x 255.x.x.x
+no shutdown   (activer le routeur)
+
+######### pour sauveguarder######
+
+enable
+wr    (write)
+
+#########  ip route #########
+ip route ( ip du reseau lan a se connecter - masque de sous-reseau - ip patte du routeur coté WAN
+
+######### ARP #########
+show running-config
